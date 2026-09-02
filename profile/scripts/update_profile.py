@@ -12,12 +12,12 @@ Standard library only. Run from the repository root.
 
 from __future__ import annotations
 
-import datetime as dt
 import pathlib
 import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 
 README = pathlib.Path("profile/README.md")
 
@@ -53,9 +53,11 @@ def build_blog_block() -> str:
         pub = (item.findtext("pubDate") or "").strip()
         stamp = ""
         try:
-            parsed = dt.datetime.strptime(pub, "%a, %d %b %Y %H:%M:%S %Z")
+            # RSS pubDate is an RFC 2822 date; parsedate_to_datetime returns
+            # a timezone-aware datetime.
+            parsed = parsedate_to_datetime(pub)
             stamp = f" <sub>· {parsed:%b %Y}</sub>"
-        except ValueError:
+        except (TypeError, ValueError):
             pass
         lines.append(f"- [**{title}**]({link}){stamp}")
     return "\n".join(lines)
