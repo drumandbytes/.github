@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & discussion
+    url: https://drumandbytes.com/
+    about: For general questions and write-ups. For usage help, use the repository's Discussions tab where available.
+  - name: Report a security vulnerability
+    url: https://github.com/drumandbytes/.github/security/policy
+    about: Please do not file security issues in public. Follow the security policy instead.
