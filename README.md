@@ -7,7 +7,7 @@ Organization-level defaults for the **drumandbytes** GitHub org.
 | Path | Purpose |
 |---|---|
 | [`profile/README.md`](profile/README.md) | Renders as the org landing page at [github.com/drumandbytes](https://github.com/drumandbytes). |
-| [`profile/assets/`](profile/assets/) | Images used by the profile page (banner, etc.). |
+| [`profile/assets/`](profile/assets/) | Profile banner + the `dnb-robot` GitHub App logo (`dnb-robot.svg` source, `dnb-robot.png` avatar) — see its [README](profile/assets/README.md). |
 | [`profile/scripts/update_profile.py`](profile/scripts/update_profile.py) | Regenerates the `BLOG-POSTS` block in the profile from the blog RSS feed. |
 | [`.github/workflows/update-profile.yml`](.github/workflows/update-profile.yml) | Runs that script daily and commits the result (as the `dnb-robot` app). |
 | [`.github/workflows/ci.yml`](.github/workflows/ci.yml) | actionlint + `ruff` + template validation on every PR; the gate for auto-merge. |
