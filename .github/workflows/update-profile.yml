@@ -1,0 +1,54 @@
+name: Update profile
+
+# Refreshes the "Latest from the blog" block in profile/README.md from the
+# drumandbytes.com RSS feed and commits the result straight to the default
+# branch.
+#
+# The push is attributed to the dnb-robot GitHub App (app id 4773076), the
+# one bypass actor on the org's `protecting-main` ruleset — a plain
+# GITHUB_TOKEN push is rejected by "changes must be made through a pull
+# request". See drumandbytes/dnb-tf's rulesets.tf for the full story.
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate dnb-robot app token
+        id: app_token
+        # pinned to v3.2.0
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349
+        with:
+          app-id: 4773076
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          token: ${{ steps.app_token.outputs.token }}
+
+      - name: Refresh profile README
+        run: python3 profile/scripts/update_profile.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "dnb-robot[bot]"
+          git config user.email "4773076+dnb-robot[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "chore: refresh latest blog posts on profile"
+          git push

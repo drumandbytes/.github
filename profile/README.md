@@ -20,6 +20,18 @@ a data engineer based in Tallinn, Estonia. It's where side projects, homelab exp
 small tools graduate from *"works on my machine"* into something other people can run. Most of
 it is open source under the MIT licence.
 
+## Latest from the blog
+
+<!-- BLOG-POSTS:START -->
+<!-- updated by .github/workflows/update-profile.yml -->
+- [**On admitting and accepting failure**](https://drumandbytes.com/on-admitting-and-accepting-failure/) <sub>· Mar 2026</sub>
+- [**How Ghost helped me build a self-hosted blog**](https://drumandbytes.com/what-is-ghost/) <sub>· Jan 2026</sub>
+- [**What I am using to host this blog**](https://drumandbytes.com/what-i-am-using-to-host-this-blog/) <sub>· Dec 2025</sub>
+- [**Why I decided to make a self-hosted blog**](https://drumandbytes.com/why-i-decided-to-make-a-self-hosted-blog/) <sub>· Nov 2025</sub>
+<!-- BLOG-POSTS:END -->
+
+<sub>More at [drumandbytes.com](https://drumandbytes.com/).</sub>
+
 ## Featured projects
 
 ### 🗺️ Apps & PWAs
@@ -62,10 +74,6 @@ pull requests.<br>
 Helm chart and image version bumps for GitOps repos. ArgoCD / Kustomize aware, with
 Slack / Teams / Discord / Telegram notifications.<br>
 <sub><a href="https://github.com/drumandbytes/argocd-gitops-updater-action/releases"><img src="https://img.shields.io/github/v/tag/drumandbytes/argocd-gitops-updater-action?style=flat-square&label=release&sort=semver" alt="Latest release"></a></sub>
-
-**[reusable-actions](https://github.com/drumandbytes/reusable-actions)** — shared reusable
-workflows: Cloudflare Workers & Pages deploys, Node and Python CI, OpenTofu validation, Trivy
-scanning, and Dependabot auto-merge.
 
 ### 🏠 Homelab & self-hosting
 
