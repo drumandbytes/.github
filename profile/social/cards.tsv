@@ -1,0 +1,9 @@
+# slug	device	screenshot	tagline
+eraser	phone	screenshots/eraser.jpg	Free, open-source data-broker removal — automated GDPR / CCPA opt-out requests to 700+ brokers.
+f1-walk	stacked		Fan-made PWA walking guides to real F1 street circuits — Monaco, Baku, Singapore, Las Vegas, Melbourne. GPS, corner history, offline.
+road-conditions-ee	phone	screenshots/road-conditions-ee.jpg	Teesilm — a faster, offline-capable PWA for Estonian road and weather conditions.
+opentofu-updater-action	none		Keeps OpenTofu / Terraform providers, modules, Helm charts and images up to date via pull requests.
+argocd-gitops-updater-action	none		Automated Helm chart and image version bumps for GitOps repos. ArgoCD and Kustomize aware.
+nordvpn	none		Minimal, distroless NordVPN + Meshnet container image — no shell, no package manager, rebuilt weekly.
+pve-metrics-exporter	none		Proxmox VE exporter for Prometheus and Glance — including the CPU / GPU / NVMe temperatures most exporters skip.
+dotfiles	none		Personal macOS dotfiles managed with chezmoi — shell, Homebrew and app config, reproducible on a fresh machine.

@@ -9,6 +9,7 @@ Organization-level defaults for the **drumandbytes** GitHub org.
 | [`profile/README.md`](profile/README.md) | Renders as the org landing page at [github.com/drumandbytes](https://github.com/drumandbytes). |
 | [`profile/assets/`](profile/assets/) | Images used by the profile page (banner, etc.). |
 | [`profile/scripts/update_profile.py`](profile/scripts/update_profile.py) | Regenerates the `BLOG-POSTS` block in the profile from the blog RSS feed. |
+| [`profile/social/`](profile/social/) | Generator for the per-repo social-preview cards (uploaded to each repo's settings by hand — see its README). |
 | [`.github/workflows/update-profile.yml`](.github/workflows/update-profile.yml) | Runs that script daily and commits the result (as the `dnb-robot` app). |
 | [`.github/workflows/ci.yml`](.github/workflows/ci.yml) | actionlint + `ruff` + template validation on every PR; the gate for auto-merge. |
 | [`.github/dependabot.yml`](.github/dependabot.yml) | Weekly grouped bumps for the actions used in `.github/workflows/`. |
