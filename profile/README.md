@@ -85,7 +85,7 @@ channel.<br>
 **[dotfiles](https://github.com/drumandbytes/dotfiles)** — macOS dotfiles managed with chezmoi;
 shell, Homebrew and app config, reproducible on a fresh machine.
 
-## Tech & tools
+## Built with
 
 <p>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
