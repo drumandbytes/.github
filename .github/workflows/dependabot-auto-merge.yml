@@ -1,0 +1,25 @@
+name: Dependabot auto-merge
+
+# Enables auto-merge on a Dependabot PR once CI has passed. Uses the org's
+# shared definition in reusable-actions, the same way nordvpn and the action
+# repos do.
+#
+# Triggered from `workflow_run` rather than `pull_request` on purpose:
+# Dependabot-triggered `pull_request` runs get a read-only GITHUB_TOKEN and no
+# secrets, so they cannot merge. A `workflow_run` job runs in the base repo's
+# context with full permissions. See reusable-actions/.github/workflows/auto-merge.yml.
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+
+jobs:
+  auto-merge:
+    # The reusable workflow cannot grant itself more than the caller has, and
+    # the org default for GITHUB_TOKEN is read-only — so declare it here.
+    permissions:
+      contents: write
+      pull-requests: write
+    if: github.event.workflow_run.conclusion == 'success'
+    uses: drumandbytes/reusable-actions/.github/workflows/auto-merge.yml@v1
