@@ -10,6 +10,9 @@ Organization-level defaults for the **drumandbytes** GitHub org.
 | [`profile/assets/`](profile/assets/) | Images used by the profile page (banner, etc.). |
 | [`profile/scripts/update_profile.py`](profile/scripts/update_profile.py) | Regenerates the `BLOG-POSTS` block in the profile from the blog RSS feed. |
 | [`.github/workflows/update-profile.yml`](.github/workflows/update-profile.yml) | Runs that script daily and commits the result (as the `dnb-robot` app). |
+| [`.github/workflows/ci.yml`](.github/workflows/ci.yml) | actionlint + `ruff` + template validation on every PR; the gate for auto-merge. |
+| [`.github/dependabot.yml`](.github/dependabot.yml) | Weekly grouped bumps for the actions used in `.github/workflows/`. |
+| [`.github/workflows/dependabot-auto-merge.yml`](.github/workflows/dependabot-auto-merge.yml) | Enables auto-merge on a Dependabot PR once CI passes (via `reusable-actions`). |
 | [`SECURITY.md`](SECURITY.md) | Default security policy. |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Default contribution guidelines. |
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Contributor Covenant 2.1. |
@@ -25,6 +28,14 @@ in the org that does not provide its own copy**. A repo with its own
 overrides a repo-local file.
 
 `FUNDING.yml` is intentionally not included yet.
+
+## Dependency updates
+
+Dependabot opens one grouped PR a week for the actions pinned in
+`.github/workflows/`. `ci.yml` runs on it; once green,
+`dependabot-auto-merge.yml` enables auto-merge (squash) through the org's shared
+`reusable-actions/auto-merge.yml`. Requires `allow_auto_merge` on this repo —
+set it in `dnb-tf` alongside the other repo defaults.
 
 ## Editing the profile page
 

@@ -1,0 +1,52 @@
+name: CI
+
+# Structural checks for this repo's own moving parts: the workflow YAML and
+# the profile-refresh script. Also the gate that dependabot-auto-merge.yml
+# waits on before enabling auto-merge.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "**/*.md" # the daily profile refresh only touches README.md
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install actionlint
+        run: bash <(curl -fsSL https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+      - run: ./actionlint -color
+
+  scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install ruff pyyaml
+      - name: Lint
+        run: |
+          ruff check profile/scripts/
+          ruff format --check profile/scripts/
+      - name: Byte-compile
+        run: python -m compileall -q profile/scripts/
+      - name: Validate issue templates
+        run: |
+          python - <<'PY'
+          import glob, yaml
+          for f in glob.glob(".github/ISSUE_TEMPLATE/*.yml"):
+              yaml.safe_load(open(f))
+              print("ok", f)
+          PY

@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # The only dependencies this repo has are the actions pinned in
+  # .github/workflows/. Grouped into one PR so related bumps land together
+  # rather than as a stream; CI + dependabot-auto-merge.yml handle the rest.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      actions:
+        patterns: ["*"]
