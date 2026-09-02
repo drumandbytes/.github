@@ -24,68 +24,66 @@ it is open source under the MIT licence.
 
 ### 🗺️ Apps & PWAs
 
-- **[road-conditions-ee](https://github.com/drumandbytes/road-conditions-ee)** &nbsp;
-  <a href="https://roadconditions.drumandbytes.ee"><img src="https://img.shields.io/badge/live-roadconditions.drumandbytes.ee-2b8a3e?style=flat-square" alt="Live site"></a>
-  <img src="https://img.shields.io/github/last-commit/drumandbytes/road-conditions-ee?style=flat-square&label=updated" alt="Last commit">
-  <br>
-  *Teesilm* — a mobile-first PWA for Estonian road and weather conditions. Offline-capable,
-  self-hosted vector maps, and precise location-based hazard alerts (a radius around a saved
-  point, not a coarse region subscription).
+**[road-conditions-ee](https://github.com/drumandbytes/road-conditions-ee)** — *Teesilm*, a
+mobile-first PWA for Estonian road and weather conditions. Offline-capable, self-hosted vector
+maps, and precise location-based hazard alerts (a radius around a saved point, not a coarse
+region subscription).<br>
+<sub>
+<a href="https://roadconditions.drumandbytes.ee"><img src="https://img.shields.io/badge/live-roadconditions.drumandbytes.ee-2b8a3e?style=flat-square" alt="Live site"></a>
+<img src="https://img.shields.io/github/last-commit/drumandbytes/road-conditions-ee?style=flat-square&label=updated" alt="Last commit">
+</sub>
 
-- **[f1-walk](https://github.com/drumandbytes/f1-walk)** &nbsp;
-  <a href="https://f1walk.drumandbytes.dev"><img src="https://img.shields.io/badge/live-f1walk.drumandbytes.dev-2b8a3e?style=flat-square" alt="Live site"></a>
-  <img src="https://img.shields.io/github/last-commit/drumandbytes/f1-walk?style=flat-square&label=updated" alt="Last commit">
-  <br>
-  Fan-made walking guides to F1 street circuits — Monaco, Baku, Singapore, Las Vegas and
-  Melbourne — with GPS tracking, corner-by-corner history, and offline support.
+**[f1-walk](https://github.com/drumandbytes/f1-walk)** — fan-made walking guides to F1 street
+circuits (Monaco, Baku, Singapore, Las Vegas, Melbourne) with GPS tracking, corner-by-corner
+history, and offline support.<br>
+<sub>
+<a href="https://f1walk.drumandbytes.dev"><img src="https://img.shields.io/badge/live-f1walk.drumandbytes.dev-2b8a3e?style=flat-square" alt="Live site"></a>
+<img src="https://img.shields.io/github/last-commit/drumandbytes/f1-walk?style=flat-square&label=updated" alt="Last commit">
+</sub>
 
 ### 🛡️ Privacy
 
-- **[eraser](https://github.com/drumandbytes/eraser)** &nbsp;
-  <img src="https://img.shields.io/github/stars/drumandbytes/eraser?style=flat-square" alt="Stars">
-  <img src="https://img.shields.io/github/last-commit/drumandbytes/eraser?style=flat-square&label=updated" alt="Last commit">
-  <br>
-  Free, open-source data-broker removal. Sends GDPR/CCPA opt-out requests to 700+ brokers
-  automatically — a maintained continuation of `digisamroc/eraser` with EU-specific handling.
+**[eraser](https://github.com/drumandbytes/eraser)** — free, open-source data-broker removal.
+Sends GDPR/CCPA opt-out requests to 700+ brokers automatically; a maintained continuation of
+`digisamroc/eraser` with EU-specific handling.<br>
+<sub>
+<img src="https://img.shields.io/github/stars/drumandbytes/eraser?style=flat-square" alt="Stars">
+<img src="https://img.shields.io/github/last-commit/drumandbytes/eraser?style=flat-square&label=updated" alt="Last commit">
+</sub>
 
 ### ⚙️ CI & GitHub Actions
 
-- **[opentofu-updater-action](https://github.com/drumandbytes/opentofu-updater-action)** &nbsp;
-  <img src="https://img.shields.io/github/v/tag/drumandbytes/opentofu-updater-action?style=flat-square&label=release" alt="Latest tag">
-  <br>
-  Keeps OpenTofu / Terraform providers, modules, Helm charts and container images current by
-  opening pull requests.
+**[opentofu-updater-action](https://github.com/drumandbytes/opentofu-updater-action)** — keeps
+OpenTofu / Terraform providers, modules, Helm charts and container images current by opening
+pull requests.<br>
+<sub><img src="https://img.shields.io/github/v/tag/drumandbytes/opentofu-updater-action?style=flat-square&label=release&sort=semver" alt="Latest release"></sub>
 
-- **[argocd-gitops-updater-action](https://github.com/drumandbytes/argocd-gitops-updater-action)** &nbsp;
-  <img src="https://img.shields.io/github/v/tag/drumandbytes/argocd-gitops-updater-action?style=flat-square&label=release" alt="Latest tag">
-  <br>
-  Helm chart and image version bumps for GitOps repos. ArgoCD / Kustomize aware, with
-  Slack / Teams / Discord / Telegram notifications.
+**[argocd-gitops-updater-action](https://github.com/drumandbytes/argocd-gitops-updater-action)** —
+Helm chart and image version bumps for GitOps repos. ArgoCD / Kustomize aware, with
+Slack / Teams / Discord / Telegram notifications.<br>
+<sub><img src="https://img.shields.io/github/v/tag/drumandbytes/argocd-gitops-updater-action?style=flat-square&label=release&sort=semver" alt="Latest release"></sub>
 
-- **[reusable-actions](https://github.com/drumandbytes/reusable-actions)**
-  <br>
-  Shared reusable workflows: Cloudflare Workers & Pages deploys, Node and Python CI, OpenTofu
-  validation, Trivy scanning, and Dependabot auto-merge.
+**[reusable-actions](https://github.com/drumandbytes/reusable-actions)** — shared reusable
+workflows: Cloudflare Workers & Pages deploys, Node and Python CI, OpenTofu validation, Trivy
+scanning, and Dependabot auto-merge.
 
 ### 🏠 Homelab & self-hosting
 
-- **[pve-metrics-exporter](https://github.com/drumandbytes/pve-metrics-exporter)** &nbsp;
-  <img src="https://img.shields.io/github/stars/drumandbytes/pve-metrics-exporter?style=flat-square" alt="Stars">
-  <img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image">
-  <br>
-  Proxmox VE exporter for Prometheus **and** Glance, including the CPU / GPU / NVMe hardware
-  temperatures most Proxmox exporters skip.
+**[pve-metrics-exporter](https://github.com/drumandbytes/pve-metrics-exporter)** — Proxmox VE
+exporter for Prometheus **and** Glance, including the CPU / GPU / NVMe hardware temperatures
+most Proxmox exporters skip.<br>
+<sub>
+<img src="https://img.shields.io/github/stars/drumandbytes/pve-metrics-exporter?style=flat-square" alt="Stars">
+<img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image">
+</sub>
 
-- **[nordvpn](https://github.com/drumandbytes/nordvpn)** &nbsp;
-  <img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image">
-  <br>
-  Minimal, distroless NordVPN + Meshnet container image — no shell, no package manager —
-  rebuilt weekly against the upstream `stable` channel.
+**[nordvpn](https://github.com/drumandbytes/nordvpn)** — minimal, distroless NordVPN + Meshnet
+container image (no shell, no package manager), rebuilt weekly against the upstream `stable`
+channel.<br>
+<sub><img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image"></sub>
 
-- **[dotfiles](https://github.com/drumandbytes/dotfiles)**
-  <br>
-  macOS dotfiles managed with chezmoi — shell, Homebrew and app config, reproducible on a
-  fresh machine.
+**[dotfiles](https://github.com/drumandbytes/dotfiles)** — macOS dotfiles managed with chezmoi;
+shell, Homebrew and app config, reproducible on a fresh machine.
 
 ## Tech & tools
 
@@ -106,11 +104,11 @@ it is open source under the MIT licence.
 
 ## The person behind it
 
-Built and maintained by **[@JustMaris](https://github.com/JustMaris)**.
+Built and maintained by **[@JustMaris](https://github.com/JustMaris)** —
+[**browse all repositories →**](https://github.com/orgs/drumandbytes/repositories)
 
 <p>
-  <img src="https://img.shields.io/github/followers/JustMaris?style=flat-square&label=followers" alt="GitHub followers">
-  <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&label=public%20repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Forgs%2Fdrumandbytes" alt="Public org repos">
+  <a href="https://github.com/JustMaris"><img src="https://img.shields.io/github/followers/JustMaris?style=flat-square&label=follow%20%40JustMaris&logo=github" alt="Follow @JustMaris on GitHub"></a>
 </p>
 
 ---
