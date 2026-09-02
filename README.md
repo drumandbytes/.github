@@ -52,3 +52,8 @@ set it in `dnb-tf` alongside the other repo defaults.
   the list. Run it locally with `python3 profile/scripts/update_profile.py`, or
   trigger the **Update profile** workflow. It pushes straight to `main` as the
   `dnb-robot` app (the one bypass actor on the branch ruleset).
+
+## License
+
+[MIT](LICENSE). The community-health files are adapted from the Contributor
+Covenant and standard templates; reuse them freely.
