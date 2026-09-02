@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="devices.min.css">
+<style>
+  :root {
+    --bg: #0D1117;
+    --accent: #FF6633;
+    --name: #FFFFFF;
+    --tag: #8B98A5;
+    --foot: #5B6B82;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 640px; overflow: hidden; }
+  body {
+    background: var(--bg);
+    font-family: ui-sans-serif, -apple-system, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+    position: relative;
+  }
+  .accent { position: absolute; left: 0; top: 0; bottom: 0; width: 14px; background: var(--accent); }
+
+  .text {
+    position: absolute; left: 100px; top: 50%; transform: translateY(-50%);
+    width: var(--text-w, 620px);
+  }
+  .name {
+    color: var(--name); font-weight: 800; letter-spacing: -0.02em;
+    font-size: var(--name-size, 60px); line-height: 1.05;
+  }
+  .tag {
+    color: var(--tag); font-weight: 400; font-size: 30px; line-height: 1.45;
+    margin-top: 28px;
+  }
+  .foot {
+    position: absolute; left: 100px; bottom: 60px;
+    color: var(--foot); font-size: 24px;
+  }
+
+  /* device(s) on the right of the card */
+  .stage {
+    position: absolute; right: 0; top: 0; bottom: 0; width: 560px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .stage .device {
+    transform:
+      translate(var(--tx, 0), var(--ty, 0))
+      scale(var(--s, 0.55))
+      rotate(var(--rot, 0deg));
+  }
+  .stage.stacked { display: block; }
+  .stage.stacked .device { position: absolute; top: 50%; left: 50%; margin: -420px 0 0 -215px; }
+  .device .device-screen {
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+</head>
+<body>
+  <div class="accent"></div>
+  <div class="text" style="--text-w: __TEXT_W__; --name-size: __NAME_SIZE__;">
+    <div class="name">__NAME__</div>
+    <div class="tag">__TAG__</div>
+  </div>
+  <div class="foot">drumandbytes.com</div>
+  __STAGE__
+</body>
+</html>
