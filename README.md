@@ -20,15 +20,15 @@ Organization-level defaults for the **drumandbytes** GitHub org.
 | [`SUPPORT.md`](SUPPORT.md) | Where to get help. |
 | [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) | Default PR template. |
 | [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Default issue forms + chooser config. |
+| [`FUNDING.yml`](FUNDING.yml) | Adds the "Sponsor" button, pointing at the org's GitHub Sponsors listing. |
 
 ## How the defaults work
 
 GitHub automatically applies the community-health files above to **any repository
 in the org that does not provide its own copy**. A repo with its own
 `SECURITY.md`, `CONTRIBUTING.md`, issue templates, etc. always wins — nothing here
-overrides a repo-local file.
-
-`FUNDING.yml` is intentionally not included yet.
+overrides a repo-local file. Same rule for `FUNDING.yml` — a repo with its own
+funding config keeps it instead of inheriting this one.
 
 ## Dependency updates
 
