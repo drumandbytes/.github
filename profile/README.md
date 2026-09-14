@@ -93,6 +93,16 @@ channel.<br>
 **[dotfiles](https://github.com/drumandbytes/dotfiles)** — macOS dotfiles managed with chezmoi;
 shell, Homebrew and app config, reproducible on a fresh machine.
 
+### 🖥️ macOS utilities
+
+**[music-router](https://github.com/drumandbytes/music-router)** — menu-bar
+utility that stops Music.app auto-launching and routes media keys to the
+right app.<br>
+<sub>
+<a href="https://github.com/drumandbytes/music-router/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/music-router?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/drumandbytes/music-router/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/music-router?style=flat-square&label=updated" alt="Last commit"></a>
+</sub>
+
 ## Built with
 
 <p>
@@ -108,6 +118,7 @@ shell, Homebrew and app config, reproducible on a fresh machine.
   <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
   <a href="https://preactjs.com"><img src="https://img.shields.io/badge/Preact-673AB8?style=flat-square&logo=preact&logoColor=white" alt="Preact"></a>
   <a href="https://maplibre.org"><img src="https://img.shields.io/badge/MapLibre-396CB2?style=flat-square&logo=maplibre&logoColor=white" alt="MapLibre"></a>
+  <a href="https://www.swift.org"><img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift"></a>
 </p>
 
 ## The person behind it
