@@ -7,7 +7,6 @@ argocd-gitops-updater-action	none		Automated Helm chart and image version bumps 
 nordvpn	none		Minimal, distroless NordVPN + Meshnet container image — no shell, no package manager, rebuilt weekly.
 pve-metrics-exporter	none		Proxmox VE exporter for Prometheus and Glance — including the CPU / GPU / NVMe temperatures most exporters skip.
 dotfiles	none		Personal macOS dotfiles managed with chezmoi — shell, Homebrew and app config, reproducible on a fresh machine.
-glance-F1	none		Custom F1 API for the Glance dashboard — session countdown, standings, race info.
 homebrew-tap	none		Homebrew tap for drumandbytes tools — eraser, music-router, omniroute.
 music-router	none		Menu-bar utility for macOS — stops Music.app auto-launching, routes media keys to the right app.
 company	laptop	screenshots/company.jpg	Drumandbytes OÜ — one person, a handful of open-source projects and apps.
