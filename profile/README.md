@@ -36,13 +36,13 @@ it is open source under the MIT licence.
 
 ### 🗺️ Apps & PWAs
 
-**[road-conditions-ee](https://github.com/drumandbytes/road-conditions-ee)** — *Teesilm*, a
-mobile-first PWA for Estonian road and weather conditions. Offline-capable, self-hosted vector
-maps, and precise location-based hazard alerts (a radius around a saved point, not a coarse
-region subscription).<br>
+**[Teesilm](https://roadconditions.drumandbytes.ee)** — a mobile-first PWA for Estonian road and
+weather conditions. Offline-capable, self-hosted vector maps, and precise location-based hazard
+alerts (a radius around a saved point, not a coarse region subscription). Closed-source; bugs and
+feature requests go through the public [feedback tracker](https://github.com/drumandbytes/road-conditions-feedback).<br>
 <sub>
 <a href="https://roadconditions.drumandbytes.ee"><img src="https://img.shields.io/badge/live-roadconditions.drumandbytes.ee-2b8a3e?style=flat-square" alt="Live site"></a>
-<a href="https://github.com/drumandbytes/road-conditions-ee/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/road-conditions-ee?style=flat-square&label=updated" alt="Last commit"></a>
+<a href="https://github.com/drumandbytes/road-conditions-feedback/issues"><img src="https://img.shields.io/badge/feedback-road--conditions--feedback-6f42c1?style=flat-square&logo=github&logoColor=white" alt="Feedback tracker"></a>
 </sub>
 
 **[f1-walk](https://github.com/drumandbytes/f1-walk)** — fan-made walking guides to F1 street
