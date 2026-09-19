@@ -21,5 +21,10 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    if: github.event.workflow_run.conclusion == 'success'
+    # Every other actor's CI completion used to match this too, spinning up
+    # the reusable workflow (and its PR lookup) just to no-op - narrowing the
+    # trigger itself to the only actor that can ever be eligible below.
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.actor.login == 'dependabot[bot]'
     uses: drumandbytes/reusable-actions/.github/workflows/auto-merge.yml@v1

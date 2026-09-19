@@ -5,10 +5,6 @@ name: CI
 # waits on before enabling auto-merge.
 
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - "**/*.md" # the daily profile refresh only touches README.md
   pull_request:
     branches: [main]
 
@@ -50,3 +46,14 @@ jobs:
               yaml.safe_load(open(f))
               print("ok", f)
           PY
+
+  # Single stable name for the org's required-status-check ruleset to point
+  # at, regardless of how the real jobs above are split or renamed.
+  required-checks-passed:
+    name: Required checks passed
+    runs-on: ubuntu-latest
+    needs: [actionlint, scripts]
+    if: always()
+    steps:
+      - if: contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')
+        run: exit 1
