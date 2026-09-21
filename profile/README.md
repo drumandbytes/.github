@@ -45,6 +45,8 @@ feature requests go through the public [feedback tracker](https://github.com/dru
 <a href="https://github.com/drumandbytes/road-conditions-feedback/issues"><img src="https://img.shields.io/badge/feedback-road--conditions--feedback-6f42c1?style=flat-square&logo=github&logoColor=white" alt="Feedback tracker"></a>
 </sub>
 
+### 🏎️ Formula 1
+
 **[f1-walk](https://github.com/drumandbytes/f1-walk)** — fan-made walking guides to F1 street
 circuits (Monaco, Baku, Singapore, Las Vegas, Melbourne) with GPS tracking, corner-by-corner
 history, and offline support.<br>
@@ -52,8 +54,6 @@ history, and offline support.<br>
 <a href="https://f1walk.drumandbytes.dev"><img src="https://img.shields.io/badge/live-f1walk.drumandbytes.dev-2b8a3e?style=flat-square" alt="Live site"></a>
 <a href="https://github.com/drumandbytes/f1-walk/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/f1-walk?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
-
-### 🏎️ Formula 1
 
 **[paddock-api](https://github.com/drumandbytes/paddock-api)** — custom F1 data
 API for [Glance](https://github.com/glanceapp/glance) dashboards: session
