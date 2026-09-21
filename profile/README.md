@@ -53,6 +53,17 @@ history, and offline support.<br>
 <a href="https://github.com/drumandbytes/f1-walk/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/f1-walk?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
+### 🏎️ Formula 1
+
+**[paddock-api](https://github.com/drumandbytes/paddock-api)** — custom F1 data
+API for [Glance](https://github.com/glanceapp/glance) dashboards: session
+times in your own timezone, live standings, track maps, and tyre-stint data,
+cached around the race calendar instead of a fixed TTL.<br>
+<sub>
+<a href="https://github.com/drumandbytes/paddock-api/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/paddock-api?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/drumandbytes/paddock-api/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/paddock-api?style=flat-square&label=updated" alt="Last commit"></a>
+</sub>
+
 ### 🛡️ Privacy
 
 **[eraser](https://github.com/drumandbytes/eraser)** — free, open-source data-broker removal.
