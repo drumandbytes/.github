@@ -86,6 +86,14 @@ Helm chart and image version bumps for GitOps repos. ArgoCD / Kustomize aware, w
 Slack / Teams / Discord / Telegram notifications.<br>
 <sub><a href="https://github.com/drumandbytes/argocd-gitops-updater-action/releases"><img src="https://img.shields.io/github/v/tag/drumandbytes/argocd-gitops-updater-action?style=flat-square&label=release&sort=semver" alt="Latest release"></a></sub>
 
+**[github-actions-runner-exporter](https://github.com/drumandbytes/github-actions-runner-exporter)** —
+Prometheus exporter for GitHub Actions self-hosted runner status (online/busy), polling the org
+runners API.<br>
+<sub>
+<a href="https://github.com/drumandbytes/github-actions-runner-exporter/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/github-actions-runner-exporter?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/drumandbytes/github-actions-runner-exporter/pkgs/container/github-actions-runner-exporter"><img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image on GitHub Container Registry"></a>
+</sub>
+
 ### 🏠 Homelab & self-hosting
 
 **[pve-metrics-exporter](https://github.com/drumandbytes/pve-metrics-exporter)** — Proxmox VE
@@ -103,6 +111,13 @@ channel.<br>
 
 **[dotfiles](https://github.com/drumandbytes/dotfiles)** — macOS dotfiles managed with chezmoi;
 shell, Homebrew and app config, reproducible on a fresh machine.
+
+### 🔌 Hardware
+
+**[razer-pod-bridge](https://github.com/drumandbytes/razer-pod-bridge)** — nRF52840 firmware that
+turns a Razer Wireless Control Pod into a plug-and-play USB media controller for macOS, no Razer
+Synapse required.<br>
+<sub><a href="https://github.com/drumandbytes/razer-pod-bridge/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/razer-pod-bridge?style=flat-square" alt="Stars"></a></sub>
 
 ### 🖥️ macOS utilities
 
