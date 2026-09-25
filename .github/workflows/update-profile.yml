@@ -1,17 +1,12 @@
 name: Update profile
 
-# Refreshes the "Latest from the blog" block in profile/README.md from the
-# drumandbytes.com RSS feed and commits the result straight to the default
-# branch.
-#
-# The push is attributed to the dnb-robot GitHub App (app id 4773076), the
-# one bypass actor on the org's `protecting-main` ruleset — a plain
-# GITHUB_TOKEN push is rejected by "changes must be made through a pull
-# request". See drumandbytes/dnb-tf's rulesets.tf for the full story.
+# Refreshes the blog block in profile/README.md from the drumandbytes.com
+# RSS feed. Pushes as dnb-robot, the only bypass actor on the org's
+# protecting-main ruleset (see dnb-tf's rulesets.tf).
 
 on:
   schedule:
-    - cron: "17 6 * * *" # daily, 06:17 UTC
+    - cron: "17 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,16 +19,18 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - name: Generate dnb-robot app token
         id: app_token
-        # pinned to v3.2.0
-        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         with:
-          app-id: 4773076
+          client-id: ${{ secrets.DNB_ROBOT_CLIENT_ID }}
           private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          permission-contents: write
 
-      - name: Checkout
+      # Keeps the token: the last step pushes with it.
+      - name: Checkout # zizmor: ignore[artipacked]
         uses: actions/checkout@v7
         with:
           token: ${{ steps.app_token.outputs.token }}
