@@ -104,6 +104,15 @@ most Proxmox exporters skip.<br>
 <a href="https://github.com/drumandbytes/pve-metrics-exporter/pkgs/container/pve-metrics-exporter"><img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image on GitHub Container Registry"></a>
 </sub>
 
+**[momentarr](https://github.com/drumandbytes/momentarr)** — caching, serialising proxy in front
+of FlareSolverr-compatible Cloudflare solvers (Byparr, FlareSolverr). Reuses `cf_clearance` over
+plain HTTP (~100ms instead of a ~14s browser solve) and runs one solve at a time, so Prowlarr
+never stacks browsers.<br>
+<sub>
+<a href="https://github.com/drumandbytes/momentarr/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/momentarr?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/drumandbytes/momentarr/pkgs/container/momentarr"><img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image on GitHub Container Registry"></a>
+</sub>
+
 **[nordvpn](https://github.com/drumandbytes/nordvpn)** — minimal, distroless NordVPN + Meshnet
 container image (no shell, no package manager), rebuilt weekly against the upstream `stable`
 channel.<br>
