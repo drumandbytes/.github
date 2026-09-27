@@ -165,6 +165,8 @@ Built and maintained by **[@JustMaris](https://github.com/JustMaris)** —
   <a href="https://github.com/JustMaris"><img src="https://img.shields.io/github/followers/JustMaris?style=flat-square&label=follow%20%40JustMaris&logo=github" alt="Follow @JustMaris on GitHub"></a>
 </p>
 
+<sub>Projects here are built with the help of an AI coding assistant (Claude); I review and test what gets published.</sub>
+
 ---
 
 <p align="center">
