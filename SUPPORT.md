@@ -6,7 +6,7 @@
   one of the issue templates.
 - **Questions and general discussion** — use the repository's **Discussions** tab
   where it is enabled, otherwise open an issue.
-- **Wider context and write-ups** — the blog at [drumandbytes.com](https://drumandbytes.com/).
+- **Wider context and write-ups** — the blog at [drumandbytes.com](https://drumandbytes.com/?ref=org-support).
 
 ## What isn't supported
 
