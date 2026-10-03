@@ -7,7 +7,7 @@
 <p align="center"><em>A techie's hideout — apps, infrastructure, and everything in between.</em></p>
 
 <p align="center">
-  <a href="https://drumandbytes.com/"><img src="https://img.shields.io/badge/Blog-drumandbytes.com-0b7285?style=flat-square&logo=ghost&logoColor=white" alt="Blog"></a>
+  <a href="https://drumandbytes.com/?ref=org-profile"><img src="https://img.shields.io/badge/Blog-drumandbytes.com-0b7285?style=flat-square&logo=ghost&logoColor=white" alt="Blog"></a>
   <a href="https://maris.popens.eu/"><img src="https://img.shields.io/badge/Portfolio-maris.popens.eu-5c7cfa?style=flat-square&logo=safari&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/marispopens/"><img src="https://img.shields.io/badge/LinkedIn-marispopens-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <img src="https://img.shields.io/badge/Based%20in-Estonia-4c6ef5?style=flat-square" alt="Based in Estonia">
@@ -24,24 +24,24 @@ it is open source under the MIT licence.
 
 <!-- BLOG-POSTS:START -->
 <!-- updated by .github/workflows/update-profile.yml -->
-- [**On admitting and accepting failure**](https://drumandbytes.com/on-admitting-and-accepting-failure/) <sub>· Mar 2026</sub>
-- [**How Ghost helped me build a self-hosted blog**](https://drumandbytes.com/what-is-ghost/) <sub>· Jan 2026</sub>
-- [**What I am using to host this blog**](https://drumandbytes.com/what-i-am-using-to-host-this-blog/) <sub>· Dec 2025</sub>
-- [**Why I decided to make a self-hosted blog**](https://drumandbytes.com/why-i-decided-to-make-a-self-hosted-blog/) <sub>· Nov 2025</sub>
+- [**On admitting and accepting failure**](https://drumandbytes.com/on-admitting-and-accepting-failure/?ref=org-profile) <sub>· Mar 2026</sub>
+- [**How Ghost helped me build a self-hosted blog**](https://drumandbytes.com/what-is-ghost/?ref=org-profile) <sub>· Jan 2026</sub>
+- [**What I am using to host this blog**](https://drumandbytes.com/what-i-am-using-to-host-this-blog/?ref=org-profile) <sub>· Dec 2025</sub>
+- [**Why I decided to make a self-hosted blog**](https://drumandbytes.com/why-i-decided-to-make-a-self-hosted-blog/?ref=org-profile) <sub>· Nov 2025</sub>
 <!-- BLOG-POSTS:END -->
 
-<sub>More at [drumandbytes.com](https://drumandbytes.com/).</sub>
+<sub>More at [drumandbytes.com](https://drumandbytes.com/?ref=org-profile).</sub>
 
 ## Featured projects
 
 ### 🗺️ Apps & PWAs
 
-**[Teesilm](https://roadconditions.drumandbytes.ee)** — a mobile-first PWA for Estonian road and
+**[Teesilm](https://roadconditions.drumandbytes.ee/?ref=org-profile)** — a mobile-first PWA for Estonian road and
 weather conditions. Offline-capable, self-hosted vector maps, and precise location-based hazard
 alerts (a radius around a saved point, not a coarse region subscription). Closed-source; bugs and
 feature requests go through the public [feedback tracker](https://github.com/drumandbytes/road-conditions-feedback).<br>
 <sub>
-<a href="https://roadconditions.drumandbytes.ee"><img src="https://img.shields.io/badge/live-roadconditions.drumandbytes.ee-2b8a3e?style=flat-square" alt="Live site"></a>
+<a href="https://roadconditions.drumandbytes.ee/?ref=org-profile"><img src="https://img.shields.io/badge/live-roadconditions.drumandbytes.ee-2b8a3e?style=flat-square" alt="Live site"></a>
 <a href="https://github.com/drumandbytes/road-conditions-feedback/issues"><img src="https://img.shields.io/badge/feedback-road--conditions--feedback-6f42c1?style=flat-square&logo=github&logoColor=white" alt="Feedback tracker"></a>
 </sub>
 
@@ -51,7 +51,7 @@ feature requests go through the public [feedback tracker](https://github.com/dru
 circuits (Monaco, Baku, Singapore, Las Vegas, Melbourne) with GPS tracking, corner-by-corner
 history, and offline support.<br>
 <sub>
-<a href="https://f1walk.drumandbytes.dev"><img src="https://img.shields.io/badge/live-f1walk.drumandbytes.dev-2b8a3e?style=flat-square" alt="Live site"></a>
+<a href="https://f1walk.drumandbytes.dev/?ref=org-profile"><img src="https://img.shields.io/badge/live-f1walk.drumandbytes.dev-2b8a3e?style=flat-square" alt="Live site"></a>
 <a href="https://github.com/drumandbytes/f1-walk/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/f1-walk?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
@@ -172,5 +172,5 @@ Built and maintained by **[@JustMaris](https://github.com/JustMaris)** —
 <p align="center">
   <a href="mailto:contact@drumandbytes.com">contact@drumandbytes.com</a>
   &nbsp;·&nbsp;
-  <a href="https://drumandbytes.com/">drumandbytes.com</a>
+  <a href="https://drumandbytes.com/?ref=org-profile">drumandbytes.com</a>
 </p>

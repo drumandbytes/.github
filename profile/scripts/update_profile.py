@@ -23,6 +23,8 @@ README = pathlib.Path("profile/README.md")
 
 RSS_URL = "https://drumandbytes.com/rss/"
 BLOG_POSTS = 4
+# ref-logger (cloudflare-workers) reads this to attribute profile clicks.
+REF = "org-profile"
 GENERATED_NOTE = "<!-- updated by .github/workflows/update-profile.yml -->"
 
 
@@ -59,7 +61,8 @@ def build_blog_block() -> str:
             stamp = f" <sub>· {parsed:%b %Y}</sub>"
         except (TypeError, ValueError):
             pass
-        lines.append(f"- [**{title}**]({link}){stamp}")
+        sep = "&" if "?" in link else "?"
+        lines.append(f"- [**{title}**]({link}{sep}ref={REF}){stamp}")
     return "\n".join(lines)
 
 
