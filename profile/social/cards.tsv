@@ -10,3 +10,8 @@ homebrew-tap	none		Homebrew tap for drumandbytes tools — eraser, music-router,
 music-router	none		Menu-bar utility for macOS — stops Music.app auto-launching, routes media keys to the right app.
 company	laptop	screenshots/company.jpg	Drumandbytes OÜ — one person, a handful of open-source projects and apps.
 road-conditions-feedback	phone	screenshots/road-conditions-ee.jpg	Teesilm — a faster, offline-capable PWA for Estonian road and weather conditions. Closed-source; report bugs and feature requests here.
+github-actions-runner-exporter	laptop	screenshots/github-actions-runner-exporter.jpg	Prometheus exporter and Grafana dashboard for self-hosted GitHub Actions runners — runner status, CI health and job queue times.
+momentarr	none		Caching, serialising proxy for FlareSolverr-compatible Cloudflare solvers — one browser solve at a time, cf_clearance reused over plain HTTP.
+paddock-api	none		Self-hosted F1 API for Glance dashboards — race schedules, standings, track maps and tyre usage in your own timezone.
+unraid-templates	none		Unraid Community Applications templates for momentarr, pve-metrics-exporter, paddock-api, github-actions-runner-exporter and nordvpn.
+reusable-actions	none		Shared reusable GitHub Actions workflows — Cloudflare deploys, Node and Python CI, OpenTofu validation, Trivy and Dependabot auto-merge.
