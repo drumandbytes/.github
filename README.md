@@ -10,16 +10,10 @@ Organization-level defaults for the **drumandbytes** GitHub org.
 | [`profile/assets/`](profile/assets/) | Profile banner + the `dnb-robot` GitHub App logo (`dnb-robot.svg` source, `dnb-robot.png` avatar) — see its [README](profile/assets/README.md). |
 | [`profile/scripts/update_profile.py`](profile/scripts/update_profile.py) | Regenerates the `BLOG-POSTS` block in the profile from the blog RSS feed. |
 | [`profile/social/`](profile/social/) | Generator for the per-repo social-preview cards (uploaded to each repo's settings by hand — see its README). |
-| [`.github/workflows/update-profile.yml`](.github/workflows/update-profile.yml) | Runs that script daily and commits the result (as the `dnb-robot` app). |
-| [`.github/workflows/ci.yml`](.github/workflows/ci.yml) | actionlint + `ruff` + template validation on every PR; the gate for auto-merge. |
-| [`.github/dependabot.yml`](.github/dependabot.yml) | Weekly grouped bumps for the actions used in `.github/workflows/`. |
-| [`.github/workflows/dependabot-auto-merge.yml`](.github/workflows/dependabot-auto-merge.yml) | Enables auto-merge on a Dependabot PR once CI passes (via `reusable-actions`). |
 | [`SECURITY.md`](SECURITY.md) | Default security policy. |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Default contribution guidelines. |
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Contributor Covenant 2.1. |
 | [`SUPPORT.md`](SUPPORT.md) | Where to get help. |
-| [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) | Default PR template. |
-| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Default issue forms + chooser config. |
 | [`FUNDING.yml`](FUNDING.yml) | Adds the "Sponsor" button, pointing at the org's GitHub Sponsors listing. |
 
 ## How the defaults work
