@@ -118,9 +118,6 @@ container image (no shell, no package manager), rebuilt weekly against the upstr
 channel.<br>
 <sub><a href="https://github.com/drumandbytes/nordvpn/pkgs/container/nordvpn"><img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image on GitHub Container Registry"></a></sub>
 
-**[dotfiles](https://github.com/drumandbytes/dotfiles)** — macOS dotfiles managed with chezmoi;
-shell, Homebrew and app config, reproducible on a fresh machine.
-
 ### 🔌 Hardware
 
 **[razer-pod-bridge](https://github.com/drumandbytes/razer-pod-bridge)** — nRF52840 firmware that
