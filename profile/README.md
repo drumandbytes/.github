@@ -45,6 +45,17 @@ feature requests go through the public [feedback tracker](https://github.com/dru
 <a href="https://github.com/drumandbytes/road-conditions-feedback/issues"><img src="https://img.shields.io/badge/feedback-road--conditions--feedback-6f42c1?style=flat-square&logo=github&logoColor=white" alt="Feedback tracker"></a>
 </sub>
 
+### 🎮 Games
+
+**[Rows to Riches](https://rowstoriches.drumandbytes.dev/?ref=org-profile)** — an idle game about data
+engineering and the corporate world around it: from one CSV on localhost, through OKRs and
+re-platforms, to cataloging the universe. Prestige layers, timed challenges, opt-in leaderboards
+and offline play. Source-available under PolyForm Noncommercial.<br>
+<sub>
+<a href="https://rowstoriches.drumandbytes.dev/?ref=org-profile"><img src="https://img.shields.io/badge/play-rowstoriches.drumandbytes.dev-2b8a3e?style=flat-square" alt="Play"></a>
+<a href="https://github.com/drumandbytes/rows-to-riches/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/rows-to-riches?style=flat-square&label=updated" alt="Last commit"></a>
+</sub>
+
 ### 🏎️ Formula 1
 
 **[f1-walk](https://github.com/drumandbytes/f1-walk)** — fan-made walking guides to F1 street
