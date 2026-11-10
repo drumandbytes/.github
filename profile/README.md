@@ -77,12 +77,12 @@ cached around the race calendar instead of a fixed TTL.<br>
 
 ### 🛡️ Privacy
 
-**[eraser](https://github.com/drumandbytes/eraser)** — free, open-source data-broker removal.
+**[Delistd](https://delistd.dev/?ref=org-readme)** (formerly eraser) — free, open-source data-broker removal.
 Sends GDPR/CCPA opt-out requests to 700+ brokers automatically; a maintained continuation of
 `digisamroc/eraser` with EU-specific handling.<br>
 <sub>
-<a href="https://github.com/drumandbytes/eraser/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/eraser?style=flat-square" alt="Stars"></a>
-<a href="https://github.com/drumandbytes/eraser/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/eraser?style=flat-square&label=updated" alt="Last commit"></a>
+<a href="https://github.com/drumandbytes/delistd/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/delistd?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/drumandbytes/delistd/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/delistd?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
 ### ⚙️ CI & GitHub Actions
