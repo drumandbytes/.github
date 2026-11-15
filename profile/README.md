@@ -15,10 +15,11 @@
 
 ---
 
-**Drum and Bytes** is the personal GitHub organization of [Māris Popēns](https://maris.popens.eu/) —
-a data engineer based in Tallinn, Estonia. It's where side projects, homelab experiments, and
-small tools graduate from *"works on my machine"* into something other people can run. Most of
-it is open source under the MIT licence.
+**Drum and Bytes** is the open-source home of [**Drumandbytes OÜ**](https://drumandbytes.ee/?ref=org-profile),
+a one-person company in Tallinn, Estonia, run by [Māris Popēns](https://maris.popens.eu/), a data
+engineer. It's where side projects, homelab experiments, and small tools graduate from
+*"works on my machine"* into something other people can run. Most of it is open source under the
+MIT licence.
 
 ## Latest from the blog
 
@@ -53,7 +54,14 @@ re-platforms, to cataloging the universe. Prestige layers, timed challenges, opt
 and offline play. Source-available under PolyForm Noncommercial.<br>
 <sub>
 <a href="https://rowstoriches.drumandbytes.dev/?ref=org-profile"><img src="https://img.shields.io/badge/play-rowstoriches.drumandbytes.dev-2b8a3e?style=flat-square" alt="Play"></a>
+<a href="https://github.com/drumandbytes/rows-to-riches/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/rows-to-riches?style=flat-square" alt="Stars"></a>
 <a href="https://github.com/drumandbytes/rows-to-riches/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/rows-to-riches?style=flat-square&label=updated" alt="Last commit"></a>
+</sub>
+
+**[Mystery Games](https://mystery.drumandbytes.dev/?ref=org-profile)** — detective dinner mysteries you can
+play at the table, with no printing and no prep.<br>
+<sub>
+<a href="https://mystery.drumandbytes.dev/?ref=org-profile"><img src="https://img.shields.io/badge/play-mystery.drumandbytes.dev-2b8a3e?style=flat-square" alt="Play"></a>
 </sub>
 
 ### 🏎️ Formula 1
@@ -63,6 +71,7 @@ circuits (Monaco, Baku, Singapore, Las Vegas, Melbourne) with GPS tracking, corn
 history, and offline support.<br>
 <sub>
 <a href="https://f1walk.drumandbytes.dev/?ref=org-profile"><img src="https://img.shields.io/badge/live-f1walk.drumandbytes.dev-2b8a3e?style=flat-square" alt="Live site"></a>
+<a href="https://github.com/drumandbytes/f1-walk/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/f1-walk?style=flat-square" alt="Stars"></a>
 <a href="https://github.com/drumandbytes/f1-walk/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/f1-walk?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
@@ -77,9 +86,10 @@ cached around the race calendar instead of a fixed TTL.<br>
 
 ### 🛡️ Privacy
 
-**[Delistd](https://delistd.dev/?ref=org-readme)** (formerly eraser) — free, open-source data-broker removal.
+**[Delistd](https://delistd.dev/?ref=org-profile)** (formerly eraser) — free, open-source data-broker removal.
 Sends GDPR/CCPA opt-out requests to 700+ brokers automatically, with EU-specific handling.<br>
 <sub>
+<a href="https://delistd.dev/?ref=org-profile"><img src="https://img.shields.io/badge/live-delistd.dev-2b8a3e?style=flat-square" alt="Live site"></a>
 <a href="https://github.com/drumandbytes/delistd/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/delistd?style=flat-square" alt="Stars"></a>
 <a href="https://github.com/drumandbytes/delistd/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/delistd?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
@@ -89,12 +99,18 @@ Sends GDPR/CCPA opt-out requests to 700+ brokers automatically, with EU-specific
 **[opentofu-updater-action](https://github.com/drumandbytes/opentofu-updater-action)** — keeps
 OpenTofu / Terraform providers, modules, Helm charts and container images current by opening
 pull requests.<br>
-<sub><a href="https://github.com/drumandbytes/opentofu-updater-action/releases"><img src="https://img.shields.io/github/v/tag/drumandbytes/opentofu-updater-action?style=flat-square&label=release&sort=semver" alt="Latest release"></a></sub>
+<sub>
+<a href="https://github.com/drumandbytes/opentofu-updater-action/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/opentofu-updater-action?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/drumandbytes/opentofu-updater-action/releases"><img src="https://img.shields.io/github/v/tag/drumandbytes/opentofu-updater-action?style=flat-square&label=release&sort=semver" alt="Latest release"></a>
+</sub>
 
 **[argocd-gitops-updater-action](https://github.com/drumandbytes/argocd-gitops-updater-action)** —
 Helm chart and image version bumps for GitOps repos. ArgoCD / Kustomize aware, with
 Slack / Teams / Discord / Telegram notifications.<br>
-<sub><a href="https://github.com/drumandbytes/argocd-gitops-updater-action/releases"><img src="https://img.shields.io/github/v/tag/drumandbytes/argocd-gitops-updater-action?style=flat-square&label=release&sort=semver" alt="Latest release"></a></sub>
+<sub>
+<a href="https://github.com/drumandbytes/argocd-gitops-updater-action/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/argocd-gitops-updater-action?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/drumandbytes/argocd-gitops-updater-action/releases"><img src="https://img.shields.io/github/v/tag/drumandbytes/argocd-gitops-updater-action?style=flat-square&label=release&sort=semver" alt="Latest release"></a>
+</sub>
 
 **[github-actions-runner-exporter](https://github.com/drumandbytes/github-actions-runner-exporter)** —
 Prometheus exporter for GitHub Actions self-hosted runner status (online/busy), polling the org
@@ -145,6 +161,14 @@ right app.<br>
 <a href="https://github.com/drumandbytes/music-router/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/music-router?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
+**[dnb-cal](https://github.com/drumandbytes/dnb-cal)** — tiny macOS helper that reads Apple Calendar
+events through EventKit, so scripts and launchd / Hammerspoon / SketchyBar helpers can get them
+without a terminal's permissions.<br>
+<sub>
+<a href="https://github.com/drumandbytes/dnb-cal/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/dnb-cal?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/drumandbytes/dnb-cal/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/dnb-cal?style=flat-square&label=updated" alt="Last commit"></a>
+</sub>
+
 ## Built with
 
 <p>
@@ -180,4 +204,6 @@ Built and maintained by **[@JustMaris](https://github.com/JustMaris)** —
   <a href="mailto:contact@drumandbytes.com">contact@drumandbytes.com</a>
   &nbsp;·&nbsp;
   <a href="https://drumandbytes.com/?ref=org-profile">drumandbytes.com</a>
+  &nbsp;·&nbsp;
+  <a href="https://drumandbytes.ee/?ref=org-profile">Drumandbytes OÜ</a>
 </p>
