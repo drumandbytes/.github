@@ -58,10 +58,10 @@ and offline play. Source-available under PolyForm Noncommercial.<br>
 <a href="https://github.com/drumandbytes/rows-to-riches/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/rows-to-riches?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
-**[Mystery Games](https://mystery.drumandbytes.dev/?ref=org-profile)** — detective dinner mysteries you can
+**[Midnight Cases](https://midnightcases.app/?ref=org-profile)** — detective dinner mysteries you can
 play at the table, with no printing and no prep.<br>
 <sub>
-<a href="https://mystery.drumandbytes.dev/?ref=org-profile"><img src="https://img.shields.io/badge/play-mystery.drumandbytes.dev-2b8a3e?style=flat-square" alt="Play"></a>
+<a href="https://midnightcases.app/?ref=org-profile"><img src="https://img.shields.io/badge/play-midnightcases.app-2b8a3e?style=flat-square" alt="Play"></a>
 </sub>
 
 ### 🏎️ Formula 1
