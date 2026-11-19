@@ -37,13 +37,13 @@ MIT licence.
 
 ### 🗺️ Apps & PWAs
 
-**[Teesilm](https://roadconditions.drumandbytes.ee/?ref=org-profile)** — a mobile-first PWA for Estonian road and
+**[Teesilm](https://teesilm.ee/?ref=org-profile)** — a mobile-first PWA for Estonian road and
 weather conditions. Offline-capable, self-hosted vector maps, and precise location-based hazard
 alerts (a radius around a saved point, not a coarse region subscription). Closed-source; bugs and
-feature requests go through the public [feedback tracker](https://github.com/drumandbytes/road-conditions-feedback).<br>
+feature requests go through the public [feedback tracker](https://github.com/drumandbytes/teesilm-feedback).<br>
 <sub>
-<a href="https://roadconditions.drumandbytes.ee/?ref=org-profile"><img src="https://img.shields.io/badge/live-roadconditions.drumandbytes.ee-2b8a3e?style=flat-square" alt="Live site"></a>
-<a href="https://github.com/drumandbytes/road-conditions-feedback/issues"><img src="https://img.shields.io/badge/feedback-road--conditions--feedback-6f42c1?style=flat-square&logo=github&logoColor=white" alt="Feedback tracker"></a>
+<a href="https://teesilm.ee/?ref=org-profile"><img src="https://img.shields.io/badge/live-teesilm.ee-2b8a3e?style=flat-square" alt="Live site"></a>
+<a href="https://github.com/drumandbytes/teesilm-feedback/issues"><img src="https://img.shields.io/badge/feedback-teesilm--feedback-6f42c1?style=flat-square&logo=github&logoColor=white" alt="Feedback tracker"></a>
 </sub>
 
 ### 🎮 Games

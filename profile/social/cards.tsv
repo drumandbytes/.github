@@ -8,7 +8,7 @@ pve-metrics-exporter	none		Proxmox VE exporter for Prometheus and Glance — inc
 homebrew-tap	none		Homebrew tap for drumandbytes tools — delistd, music-router, omniroute, dnb-cal.
 music-router	none		Menu-bar utility for macOS — stops Music.app auto-launching, routes media keys to the right app.
 company	laptop	screenshots/company.jpg	Drumandbytes OÜ — one person, a handful of open-source projects and apps.
-road-conditions-feedback	phone	screenshots/road-conditions-ee.jpg	Teesilm — a faster, offline-capable PWA for Estonian road and weather conditions. Closed-source; report bugs and feature requests here.
+teesilm-feedback	phone	screenshots/road-conditions-ee.jpg	Teesilm — a faster, offline-capable PWA for Estonian road and weather conditions. Closed-source; report bugs and feature requests here.
 github-actions-runner-exporter	laptop	screenshots/github-actions-runner-exporter.jpg	Prometheus exporter and Grafana dashboard for self-hosted GitHub Actions runners — runner status, CI health and job queue times.
 momentarr	none		Caching, serialising proxy for FlareSolverr-compatible Cloudflare solvers — one browser solve at a time, cf_clearance reused over plain HTTP.
 paddock-api	none		Self-hosted F1 API for Glance dashboards — race schedules, standings, track maps and tyre usage in your own timezone.
