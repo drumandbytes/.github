@@ -40,7 +40,7 @@ Headless Chrome can't render the WebGL maps in `f1-walk` / `road-conditions-ee`.
 uvx shot-scraper install   # one-time
 
 # Teesilm — wait for the map + markers to load
-uvx shot-scraper "https://roadconditions.drumandbytes.ee" \
+uvx shot-scraper "https://teesilm.ee" \
   -o screenshots/road-conditions-ee.png --width 400 --height 860 --retina --wait 12000
 
 # f1-walk — dismiss the intro modal, then wait for the circuit map
