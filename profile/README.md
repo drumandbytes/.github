@@ -169,6 +169,14 @@ without a terminal's permissions.<br>
 <a href="https://github.com/drumandbytes/dnb-cal/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/dnb-cal?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
+**[airplay-screen](https://github.com/drumandbytes/airplay-screen)** — start and stop AirPlay screen
+mirroring from the macOS command line: list receivers, connect, disconnect, or pick from a menu.
+Works with the menu bar hidden and is easy to call from scripts.<br>
+<sub>
+<a href="https://github.com/drumandbytes/airplay-screen/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/airplay-screen?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/drumandbytes/airplay-screen/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/airplay-screen?style=flat-square&label=updated" alt="Last commit"></a>
+</sub>
+
 ## Built with
 
 <p>

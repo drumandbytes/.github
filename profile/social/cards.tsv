@@ -5,7 +5,7 @@ opentofu-updater-action	none		Keeps OpenTofu / Terraform providers, modules, Hel
 argocd-gitops-updater-action	none		Automated Helm chart and image version bumps for GitOps repos. ArgoCD and Kustomize aware.
 nordvpn	none		Minimal, distroless NordVPN + Meshnet container image — no shell, no package manager, rebuilt weekly.
 pve-metrics-exporter	none		Proxmox VE exporter for Prometheus and Glance — including the CPU / GPU / NVMe temperatures most exporters skip.
-homebrew-tap	none		Homebrew tap for drumandbytes tools — delistd, music-router, omniroute, dnb-cal.
+homebrew-tap	none		Homebrew tap for drumandbytes tools — delistd, music-router, omniroute, dnb-cal, airplay-screen.
 music-router	none		Menu-bar utility for macOS — stops Music.app auto-launching, routes media keys to the right app.
 company	laptop	screenshots/company.jpg	Drumandbytes OÜ — one person, a handful of open-source projects and apps.
 teesilm-feedback	phone	screenshots/road-conditions-ee.jpg	Teesilm — a faster, offline-capable PWA for Estonian road and weather conditions. Closed-source; report bugs and feature requests here.
@@ -17,3 +17,4 @@ reusable-actions	none		Shared reusable GitHub Actions workflows — Cloudflare d
 rows-to-riches	none		An idle game about data engineering and the corporate world around it — from one CSV on localhost to cataloging the universe.
 razer-pod-bridge	none		Firmware that turns a Razer Wireless Control Pod into a plug-and-play USB media controller for macOS — no Razer Synapse required.
 dnb-cal	none		Tiny macOS helper that reads Apple Calendar events through EventKit, so scripts and menu-bar tools get them without a terminal's permissions.
+airplay-screen	none		Start and stop AirPlay screen mirroring from the macOS command line — list receivers, connect, disconnect, or pick from a menu.
