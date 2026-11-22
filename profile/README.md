@@ -177,6 +177,16 @@ Works with the menu bar hidden and is easy to call from scripts.<br>
 <a href="https://github.com/drumandbytes/airplay-screen/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/airplay-screen?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
+### ✍️ Editors
+
+**[markbridge.nvim](https://github.com/drumandbytes/markbridge.nvim)** — two-way markdown preview for
+Neovim: edit paragraphs, tables, code and diagrams in the browser and the change lands in your buffer.
+Conflicts with other tools or agents are merged like git does.<br>
+<sub>
+<a href="https://github.com/drumandbytes/markbridge.nvim/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/markbridge.nvim?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/drumandbytes/markbridge.nvim/releases"><img src="https://img.shields.io/github/v/tag/drumandbytes/markbridge.nvim?style=flat-square&label=release&sort=semver" alt="Latest release"></a>
+</sub>
+
 ## Built with
 
 <p>
