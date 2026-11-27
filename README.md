@@ -26,7 +26,7 @@ Organization-level defaults for the **drumandbytes** GitHub org.
 
 GitHub automatically applies the community-health files above to **any repository
 in the org that does not provide its own copy**. A repo with its own
-`SECURITY.md`, `CONTRIBUTING.md`, issue templates, etc. always wins, nothing here
+`SECURITY.md`, `CONTRIBUTING.md`, issue templates, etc. always wins; nothing here
 overrides a repo-local file. Same rule for `FUNDING.yml`, a repo with its own
 funding config keeps it instead of inheriting this one.
 
