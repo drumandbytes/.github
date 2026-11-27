@@ -104,7 +104,7 @@ pull requests.<br>
 <a href="https://github.com/drumandbytes/opentofu-updater-action/releases"><img src="https://img.shields.io/github/v/tag/drumandbytes/opentofu-updater-action?style=flat-square&label=release&sort=semver" alt="Latest release"></a>
 </sub>
 
-**[argocd-gitops-updater-action](https://github.com/drumandbytes/argocd-gitops-updater-action)** —
+**[argocd-gitops-updater-action](https://github.com/drumandbytes/argocd-gitops-updater-action)**,
 Helm chart and image version bumps for GitOps repos. ArgoCD / Kustomize aware, with
 Slack / Teams / Discord / Telegram notifications.<br>
 <sub>
@@ -112,7 +112,7 @@ Slack / Teams / Discord / Telegram notifications.<br>
 <a href="https://github.com/drumandbytes/argocd-gitops-updater-action/releases"><img src="https://img.shields.io/github/v/tag/drumandbytes/argocd-gitops-updater-action?style=flat-square&label=release&sort=semver" alt="Latest release"></a>
 </sub>
 
-**[github-actions-runner-exporter](https://github.com/drumandbytes/github-actions-runner-exporter)** —
+**[github-actions-runner-exporter](https://github.com/drumandbytes/github-actions-runner-exporter)**,
 Prometheus exporter for GitHub Actions self-hosted runner status (online/busy), polling the org
 runners API.<br>
 <sub>
@@ -207,7 +207,7 @@ Conflicts with other tools or agents are merged like git does.<br>
 
 ## The person behind it
 
-Built and maintained by **[@JustMaris](https://github.com/JustMaris)** —
+Built and maintained by **[@JustMaris](https://github.com/JustMaris)**,
 [**browse all repositories →**](https://github.com/orgs/drumandbytes/repositories)
 
 <p>

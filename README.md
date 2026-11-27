@@ -7,9 +7,9 @@ Organization-level defaults for the **drumandbytes** GitHub org.
 | Path | Purpose |
 |---|---|
 | [`profile/README.md`](profile/README.md) | Renders as the org landing page at [github.com/drumandbytes](https://github.com/drumandbytes). |
-| [`profile/assets/`](profile/assets/) | Profile banner + the `dnb-robot` GitHub App logo (`dnb-robot.svg` source, `dnb-robot.png` avatar) — see its [README](profile/assets/README.md). |
+| [`profile/assets/`](profile/assets/) | Profile banner + the `dnb-robot` GitHub App logo (`dnb-robot.svg` source, `dnb-robot.png` avatar), see its [README](profile/assets/README.md). |
 | [`profile/scripts/update_profile.py`](profile/scripts/update_profile.py) | Regenerates the `BLOG-POSTS` block in the profile from the blog RSS feed. |
-| [`profile/social/`](profile/social/) | Generator for the per-repo social-preview cards (uploaded to each repo's settings by hand — see its README). |
+| [`profile/social/`](profile/social/) | Generator for the per-repo social-preview cards (uploaded to each repo's settings by hand, see its README). |
 | [`.github/workflows/update-profile.yml`](.github/workflows/update-profile.yml) | Runs that script daily and commits the result (as the `dnb-robot` app). |
 | [`.github/workflows/ci.yml`](.github/workflows/ci.yml) | actionlint + `ruff` + template validation on every PR; the gate for auto-merge. |
 | [`.github/dependabot.yml`](.github/dependabot.yml) | Weekly grouped bumps for the actions used in `.github/workflows/`. |
@@ -35,7 +35,7 @@ funding config keeps it instead of inheriting this one.
 Dependabot opens one grouped PR a week for the actions pinned in
 `.github/workflows/`. `ci.yml` runs on it; once green,
 `dependabot-auto-merge.yml` enables auto-merge (squash) through the org's shared
-`reusable-actions/auto-merge.yml`. Requires `allow_auto_merge` on this repo —
+`reusable-actions/auto-merge.yml`. Requires `allow_auto_merge` on this repo,
 set it in `dnb-tf` alongside the other repo defaults.
 
 ## Editing the profile page

@@ -9,7 +9,7 @@ card here, then upload it at `<repo> → Settings → General → Social preview
 | | |
 |---|---|
 | `template.html` | The card layout (dark ground, orange accent, name + tagline, optional device). |
-| `devices.min.css` | [devices.css](https://github.com/picturepan2/devices.css) v0.2.0, MIT — pure-CSS device frames. Vendored. |
+| `devices.min.css` | [devices.css](https://github.com/picturepan2/devices.css) v0.2.0, MIT, pure-CSS device frames. Vendored. |
 | `build.sh` | Renders one card: `./build.sh <slug> "<tagline>" [none\|phone\|tablet\|laptop] [screenshot.png]` |
 | `build-all.sh` | Renders every row of `cards.tsv`. |
 | `cards.tsv` | `slug ⇥ device ⇥ screenshot ⇥ tagline` per repo. |

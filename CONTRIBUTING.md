@@ -23,7 +23,7 @@ repositories in the **drumandbytes** organization; a repo with its own
   (`feat:`, `fix:`, `chore:`, `docs:` …).
 - All CI checks must pass. Every repo requires the change to go through a pull
   request: direct pushes to the default branch are blocked org-wide.
-- PRs are normally **squash-merged**, so the PR title becomes the commit message —
+- PRs are normally **squash-merged**, so the PR title becomes the commit message,
   make it a clean Conventional Commit line.
 
 ## Reviews
