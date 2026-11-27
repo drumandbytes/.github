@@ -1,7 +1,7 @@
 # Social preview cards
 
 Generates 1280×640 cards so `github.com/drumandbytes/*` links unfurl as a
-branded set. A repo's social preview is a GitHub **setting** (no API) — build a
+branded set. A repo's social preview is a GitHub **setting** (no API), build a
 card here, then upload it at `<repo> → Settings → General → Social preview`.
 
 ## Files
@@ -18,7 +18,7 @@ card here, then upload it at `<repo> → Settings → General → Social preview
 
 ## Requirements
 
-- **Chromium** for the screenshot step — `build.sh` points `BROWSER` at Brave;
+- **Chromium** for the screenshot step, `build.sh` points `BROWSER` at Brave;
   override for another Chromium.
 - **ImageMagick** (`magick`) only for the optional montage.
 
@@ -52,7 +52,7 @@ uvx shot-scraper "https://f1walk.drumandbytes.dev/monaco" \
 
 For static pages a plain Brave `--headless --screenshot` is enough. The
 committed screenshots are downscaled JPGs (`magick shot.png -quality 82 shot.jpg`)
-to keep the repo light — `build.sh` reads `.jpg` or `.png`. `stacked` derives
+to keep the repo light, `build.sh` reads `.jpg` or `.png`. `stacked` derives
 its two frames from `screenshots/<slug>.*` (front) and `screenshots/<slug>-back.*`
 (back).
 
@@ -64,4 +64,4 @@ Deliberately minimal: repo name (Arial-bold weight), one-line tagline, the site
 accent `#FF6633` as a left rule, `drumandbytes.com` wordmark. Device-framed
 cards add a tilted iPhone 14 on the right for the two PWAs; everything else is
 type-only so the set stays coherent. `nordvpn` / `pve-metrics-exporter` are
-type-only too — people share their GHCR package, not the repo.
+type-only too, people share their GHCR package, not the repo.

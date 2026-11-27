@@ -25,7 +25,7 @@ Fallback with ImageMagick: `magick -background none -density 384 dnb-robot.svg -
 
 ## Using the logo as the bot avatar
 
-The `dnb-robot` GitHub App is **not** managed in `dnb-tf` — its avatar is set by
+The `dnb-robot` GitHub App is **not** managed in `dnb-tf`, its avatar is set by
 hand. Upload `dnb-robot.png` at **Settings → Developer settings → GitHub Apps →
 dnb-robot → Display information → Logo**. The committed files here are the source
 of truth.

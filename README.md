@@ -26,8 +26,8 @@ Organization-level defaults for the **drumandbytes** GitHub org.
 
 GitHub automatically applies the community-health files above to **any repository
 in the org that does not provide its own copy**. A repo with its own
-`SECURITY.md`, `CONTRIBUTING.md`, issue templates, etc. always wins — nothing here
-overrides a repo-local file. Same rule for `FUNDING.yml` — a repo with its own
+`SECURITY.md`, `CONTRIBUTING.md`, issue templates, etc. always wins, nothing here
+overrides a repo-local file. Same rule for `FUNDING.yml`, a repo with its own
 funding config keeps it instead of inheriting this one.
 
 ## Dependency updates
@@ -48,7 +48,7 @@ set it in `dnb-tf` alongside the other repo defaults.
   repo-hosted images only load once the change is on `main`.
 - Changes go through a pull request (enforced org-wide).
 - The **Latest from the blog** list between the `<!-- BLOG-POSTS:START -->` /
-  `<!-- BLOG-POSTS:END -->` markers is generated — edit
+  `<!-- BLOG-POSTS:END -->` markers is generated, edit
   [`profile/scripts/update_profile.py`](profile/scripts/update_profile.py), not
   the list. Run it locally with `python3 profile/scripts/update_profile.py`, or
   trigger the **Update profile** workflow. It pushes straight to `main` as the

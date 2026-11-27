@@ -4,7 +4,7 @@
 
 <h1 align="center">Drum and Bytes</h1>
 
-<p align="center"><em>A techie's hideout — apps, infrastructure, and everything in between.</em></p>
+<p align="center"><em>A techie's hideout, apps, infrastructure, and everything in between.</em></p>
 
 <p align="center">
   <a href="https://drumandbytes.com/?ref=org-profile"><img src="https://img.shields.io/badge/Blog-drumandbytes.com-0b7285?style=flat-square&logo=ghost&logoColor=white" alt="Blog"></a>
@@ -37,7 +37,7 @@ MIT licence.
 
 ### 🗺️ Apps & PWAs
 
-**[Teesilm](https://teesilm.ee/?ref=org-profile)** — a mobile-first PWA for Estonian road and
+**[Teesilm](https://teesilm.ee/?ref=org-profile)**, a mobile-first PWA for Estonian road and
 weather conditions. Offline-capable, self-hosted vector maps, and precise location-based hazard
 alerts (a radius around a saved point, not a coarse region subscription). Closed-source; bugs and
 feature requests go through the public [feedback tracker](https://github.com/drumandbytes/teesilm-feedback).<br>
@@ -48,7 +48,7 @@ feature requests go through the public [feedback tracker](https://github.com/dru
 
 ### 🎮 Games
 
-**[Rows to Riches](https://rowstoriches.drumandbytes.dev/?ref=org-profile)** — an idle game about data
+**[Rows to Riches](https://rowstoriches.drumandbytes.dev/?ref=org-profile)**, an idle game about data
 engineering and the corporate world around it: from one CSV on localhost, through OKRs and
 re-platforms, to cataloging the universe. Prestige layers, timed challenges, opt-in leaderboards
 and offline play. Source-available under PolyForm Noncommercial.<br>
@@ -58,7 +58,7 @@ and offline play. Source-available under PolyForm Noncommercial.<br>
 <a href="https://github.com/drumandbytes/rows-to-riches/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/rows-to-riches?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
-**[Midnight Cases](https://midnightcases.app/?ref=org-profile)** — detective dinner mysteries you can
+**[Midnight Cases](https://midnightcases.app/?ref=org-profile)**, detective dinner mysteries you can
 play at the table, with no printing and no prep.<br>
 <sub>
 <a href="https://midnightcases.app/?ref=org-profile"><img src="https://img.shields.io/badge/play-midnightcases.app-2b8a3e?style=flat-square" alt="Play"></a>
@@ -66,7 +66,7 @@ play at the table, with no printing and no prep.<br>
 
 ### 🏎️ Formula 1
 
-**[f1-walk](https://github.com/drumandbytes/f1-walk)** — fan-made walking guides to F1 street
+**[f1-walk](https://github.com/drumandbytes/f1-walk)**, fan-made walking guides to F1 street
 circuits (Monaco, Baku, Singapore, Las Vegas, Melbourne) with GPS tracking, corner-by-corner
 history, and offline support.<br>
 <sub>
@@ -75,7 +75,7 @@ history, and offline support.<br>
 <a href="https://github.com/drumandbytes/f1-walk/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/f1-walk?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
-**[paddock-api](https://github.com/drumandbytes/paddock-api)** — custom F1 data
+**[paddock-api](https://github.com/drumandbytes/paddock-api)**, custom F1 data
 API for [Glance](https://github.com/glanceapp/glance) dashboards: session
 times in your own timezone, live standings, track maps, and tyre-stint data,
 cached around the race calendar instead of a fixed TTL.<br>
@@ -86,7 +86,7 @@ cached around the race calendar instead of a fixed TTL.<br>
 
 ### 🛡️ Privacy
 
-**[Delistd](https://delistd.dev/?ref=org-profile)** (formerly eraser) — free, open-source data-broker removal.
+**[Delistd](https://delistd.dev/?ref=org-profile)** (formerly eraser), free, open-source data-broker removal.
 Sends GDPR/CCPA opt-out requests to 700+ brokers automatically, with EU-specific handling.<br>
 <sub>
 <a href="https://delistd.dev/?ref=org-profile"><img src="https://img.shields.io/badge/live-delistd.dev-2b8a3e?style=flat-square" alt="Live site"></a>
@@ -96,7 +96,7 @@ Sends GDPR/CCPA opt-out requests to 700+ brokers automatically, with EU-specific
 
 ### ⚙️ CI & GitHub Actions
 
-**[opentofu-updater-action](https://github.com/drumandbytes/opentofu-updater-action)** — keeps
+**[opentofu-updater-action](https://github.com/drumandbytes/opentofu-updater-action)**, keeps
 OpenTofu / Terraform providers, modules, Helm charts and container images current by opening
 pull requests.<br>
 <sub>
@@ -122,7 +122,7 @@ runners API.<br>
 
 ### 🏠 Homelab & self-hosting
 
-**[pve-metrics-exporter](https://github.com/drumandbytes/pve-metrics-exporter)** — Proxmox VE
+**[pve-metrics-exporter](https://github.com/drumandbytes/pve-metrics-exporter)**, Proxmox VE
 exporter for Prometheus **and** Glance, including the CPU / GPU / NVMe hardware temperatures
 most Proxmox exporters skip.<br>
 <sub>
@@ -130,7 +130,7 @@ most Proxmox exporters skip.<br>
 <a href="https://github.com/drumandbytes/pve-metrics-exporter/pkgs/container/pve-metrics-exporter"><img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image on GitHub Container Registry"></a>
 </sub>
 
-**[momentarr](https://github.com/drumandbytes/momentarr)** — caching, serialising proxy in front
+**[momentarr](https://github.com/drumandbytes/momentarr)**, caching, serialising proxy in front
 of FlareSolverr-compatible Cloudflare solvers (Byparr, FlareSolverr). Reuses `cf_clearance` over
 plain HTTP (~100ms instead of a ~14s browser solve) and runs one solve at a time, so Prowlarr
 never stacks browsers.<br>
@@ -139,21 +139,21 @@ never stacks browsers.<br>
 <a href="https://github.com/drumandbytes/momentarr/pkgs/container/momentarr"><img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image on GitHub Container Registry"></a>
 </sub>
 
-**[nordvpn](https://github.com/drumandbytes/nordvpn)** — minimal, distroless NordVPN + Meshnet
+**[nordvpn](https://github.com/drumandbytes/nordvpn)**, minimal, distroless NordVPN + Meshnet
 container image (no shell, no package manager), rebuilt weekly against the upstream `stable`
 channel.<br>
 <sub><a href="https://github.com/drumandbytes/nordvpn/pkgs/container/nordvpn"><img src="https://img.shields.io/badge/ghcr.io-published-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Container image on GitHub Container Registry"></a></sub>
 
 ### 🔌 Hardware
 
-**[razer-pod-bridge](https://github.com/drumandbytes/razer-pod-bridge)** — nRF52840 firmware that
+**[razer-pod-bridge](https://github.com/drumandbytes/razer-pod-bridge)**, nRF52840 firmware that
 turns a Razer Wireless Control Pod into a plug-and-play USB media controller for macOS, no Razer
 Synapse required.<br>
 <sub><a href="https://github.com/drumandbytes/razer-pod-bridge/stargazers"><img src="https://img.shields.io/github/stars/drumandbytes/razer-pod-bridge?style=flat-square" alt="Stars"></a></sub>
 
 ### 🖥️ macOS utilities
 
-**[music-router](https://github.com/drumandbytes/music-router)** — menu-bar
+**[music-router](https://github.com/drumandbytes/music-router)**, menu-bar
 utility that stops Music.app auto-launching and routes media keys to the
 right app.<br>
 <sub>
@@ -161,7 +161,7 @@ right app.<br>
 <a href="https://github.com/drumandbytes/music-router/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/music-router?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
-**[dnb-cal](https://github.com/drumandbytes/dnb-cal)** — tiny macOS helper that reads Apple Calendar
+**[dnb-cal](https://github.com/drumandbytes/dnb-cal)**, tiny macOS helper that reads Apple Calendar
 events through EventKit, so scripts and launchd / Hammerspoon / SketchyBar helpers can get them
 without a terminal's permissions.<br>
 <sub>
@@ -169,7 +169,7 @@ without a terminal's permissions.<br>
 <a href="https://github.com/drumandbytes/dnb-cal/commits"><img src="https://img.shields.io/github/last-commit/drumandbytes/dnb-cal?style=flat-square&label=updated" alt="Last commit"></a>
 </sub>
 
-**[airplay-screen](https://github.com/drumandbytes/airplay-screen)** — start and stop AirPlay screen
+**[airplay-screen](https://github.com/drumandbytes/airplay-screen)**, start and stop AirPlay screen
 mirroring from the macOS command line: list receivers, connect, disconnect, or pick from a menu.
 Works with the menu bar hidden and is easy to call from scripts.<br>
 <sub>
@@ -179,7 +179,7 @@ Works with the menu bar hidden and is easy to call from scripts.<br>
 
 ### ✍️ Editors
 
-**[markbridge.nvim](https://github.com/drumandbytes/markbridge.nvim)** — two-way markdown preview for
+**[markbridge.nvim](https://github.com/drumandbytes/markbridge.nvim)**, two-way markdown preview for
 Neovim: edit paragraphs, tables, code and diagrams in the browser and the change lands in your buffer.
 Conflicts with other tools or agents are merged like git does.<br>
 <sub>
