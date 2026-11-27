@@ -15,14 +15,14 @@ repositories in the **drumandbytes** organization; a repo with its own
 ## Pull requests
 
 - Branch off the default branch; one logical change per branch.
-- Keep the diff focused, unrelated cleanups belong in their own PR.
+- Keep the diff focused: unrelated cleanups belong in their own PR.
 - Follow the existing code style of the repo. If it has linters or formatters
   configured, run them.
 - Update documentation and tests alongside the code.
 - Write [Conventional Commit](https://www.conventionalcommits.org/) messages
   (`feat:`, `fix:`, `chore:`, `docs:` …).
 - All CI checks must pass. Every repo requires the change to go through a pull
-  request, direct pushes to the default branch are blocked org-wide.
+  request: direct pushes to the default branch are blocked org-wide.
 - PRs are normally **squash-merged**, so the PR title becomes the commit message —
   make it a clean Conventional Commit line.
 

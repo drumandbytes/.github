@@ -14,5 +14,5 @@ These are hobby projects maintained by one person in spare time. There is no SLA
 no paid support, and no private support channel for usage questions. Response
 times vary.
 
-Security reports are the exception, see [SECURITY.md](SECURITY.md) for the
+Security reports are the exception: see [SECURITY.md](SECURITY.md) for the
 private reporting process.

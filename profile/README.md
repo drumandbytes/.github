@@ -4,7 +4,7 @@
 
 <h1 align="center">Drum and Bytes</h1>
 
-<p align="center"><em>A techie's hideout, apps, infrastructure, and everything in between.</em></p>
+<p align="center"><em>A techie's hideout: apps, infrastructure, and everything in between.</em></p>
 
 <p align="center">
   <a href="https://drumandbytes.com/?ref=org-profile"><img src="https://img.shields.io/badge/Blog-drumandbytes.com-0b7285?style=flat-square&logo=ghost&logoColor=white" alt="Blog"></a>
